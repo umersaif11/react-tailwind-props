@@ -24,7 +24,6 @@ function App() {
         channel: "Coffe aur Code",
         instructor: "Unkown"
       }}
-      age = {21}
       />
     </>
   )

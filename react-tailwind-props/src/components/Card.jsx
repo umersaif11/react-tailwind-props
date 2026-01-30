@@ -1,6 +1,8 @@
 import React from 'react'
 
-function Card({username, someObj, age}) {
+function Card({username = "Default name", 
+    someObj = {channel: "Default Channel", instructor: "Default Instructor"},
+    age = "NaN"}) {
     
   return (
     <div className="relative max-w-lg p-8 border border-gray-100 bg-black shadow-xl rounded-xl">
